@@ -1,0 +1,106 @@
+{
+ 'addTextTrack':
+              {
+               'cn_desc': '向音频/视频添加新的文本轨道',
+               'params':
+                         [
+                          'kind':  {
+                              "cn_desc":"规定文本轨道的类型",
+                              "values": [
+                                  "subtitles",
+                                  "caption",
+                                  "descriptions",
+                                  "chapters",
+                                  "metadata"
+                              ]
+                          },
+                          'label': {
+                              "cn_desc":"字符串值，为文本轨道规定标签。用于为用户对文本轨道进行标识",
+                              "values": [
+                                  "_string"
+                              ]
+                          },
+                          'language': {
+                              "cn_desc":"双字母语言代码，规定文本轨道的语言",
+                              "values": [
+                                  "_iso_code"
+                              ]
+                          }
+                         ],
+               'return': {
+                   "cn_desc":"表示新的文本轨道",
+                   "values":[
+                       "_TextTrackObj"
+                   ]
+               }
+              },
+ 'canPlayType':
+              {
+               'cn_desc': '规定要检测的音频/视频类型',
+               'params':
+                         [
+                          'kind':  {
+                              "cn_desc":"规定文本轨道的类型",
+                              "values": [
+                                  "video/ogg",
+                                  "video/mp4",
+                                  "video/webm",
+                                  "audio/mpeg",
+                                  "audio/ogg",
+                                  "audio/mp4",
+                                  'video/ogg; codecs="theora, vorbis"',
+                                  'video/mp4; codecs="avc1.4D401E, mp4a.40.2"',
+                                  'video/webm; codecs="vp8.0, vorbis"',
+                                  'audio/ogg; codecs="vorbis"',
+                                  'audio/mp4; codecs="mp4a.40.5"',=
+                              ]
+                          },
+                          'label': {
+                              "cn_desc":"字符串值，为文本轨道规定标签。用于为用户对文本轨道进行标识",
+                              "values": [
+                                  "_string"
+                              ]
+                          },
+                          'language': {
+                              "cn_desc":"双字母语言代码，规定文本轨道的语言",
+                              "values": [
+                                  "_iso_code"
+                              ]
+                          }
+                         ],
+               'return': {
+                   "cn_desc":"表示支持的级别。可能的值",
+                   "values": [
+                       "probably",
+                       "maybe"
+                    ]
+               }
+              },
+ 'load':
+              {
+                   'cn_desc': '重新加载音频/视频元素',
+                   'params':[],
+                   'return': {
+                       "cn_desc":"",
+                       "value":[]
+                   }
+              },
+ 'play':
+              {
+                   'cn_desc': '开始播放音频/视频',
+                   'params':[],
+                   'return': {
+                       "cn_desc":"",
+                       "value":[]
+                   }
+              },
+ 'pause':
+              {
+                   'cn_desc': '暂停当前播放的音频/视频',
+                   'params':[],
+                   'return': {
+                       "cn_desc":"",
+                       "value":[]
+                   }
+              }
+}

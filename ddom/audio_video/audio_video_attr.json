@@ -1,0 +1,292 @@
+{
+ 'audioTracks':
+                {
+                 'cn_desc': '返回表示可用音轨的 AudioTrackList 对象',
+                 'return':
+                           {
+                            'cn_desc': '',
+                            'values':
+                                      ["_AudioTrackList"]
+                           }
+                },
+ 'autoplay':
+             {
+              'cn_desc': '设置或返回是否在加载完成后随即播放音频/视频',
+              'return':
+                        {
+                         'cn_desc': '',
+                         'values':
+                                   ["true","false"]
+                        }
+             },
+ 'buffered':
+             {
+              'cn_desc': '返回表示音频/视频已缓冲部分的 TimeRanges 对象',
+              'return':
+                        {
+                         'cn_desc': '',
+                         'values':
+                                   ["_TimeRanges"]
+                        }
+             },
+ 'controller':
+               {
+                'cn_desc': '返回表示音频/视频当前媒体控制器的 MediaController 对象',
+                'return':
+                          {
+                           'cn_desc': '',
+                           'values':
+                                     ["_MediaController"]
+                          }
+               },
+ 'controls':
+             {
+              'cn_desc': '设置或返回音频/视频是否显示控件（比如播放/暂停等）',
+              'return':
+                        {
+                         'cn_desc': '',
+                         'values':
+                                   ["true","false"]
+                        }
+             },
+ 'crossOrigin':
+                {
+                 'cn_desc': '设置或返回音频/视频的 CORS 设置',
+                 'return':
+                           {
+                            'cn_desc': '',
+                            'values':
+                                      []
+                           }
+                },
+ 'currentSrc':
+               {
+                'cn_desc': '返回当前音频/视频的 URL',
+                'return':
+                          {
+                           'cn_desc': '',
+                           'values':
+                                     ["_string"]
+                          }
+               },
+ 'currentTime':
+                {
+                 'cn_desc': '设置或返回音频/视频中的当前播放位置（以秒计）',
+                 'return':
+                           {
+                            'cn_desc': '',
+                            'values':
+                                      ["_number"]
+                           }
+                },
+ 'defaultMuted':
+                 {
+                  'cn_desc': '设置或返回音频/视频默认是否静音',
+                  'return':
+                            {
+                             'cn_desc': '',
+                             'values':
+                                       ["true","false"]
+                            }
+                 },
+ 'defaultPlaybackRate':
+                        {
+                         'cn_desc': '设置或返回音频/视频的默认播放速度',
+                         'return':
+                                   {
+                                    'cn_desc': '',
+                                    'values':
+                                              ["_number"]
+                                   }
+                        },
+ 'duration':
+             {
+              'cn_desc': '返回当前音频/视频的长度（以秒计）',
+              'return':
+                        {
+                         'cn_desc': '',
+                         'values':
+                                   ["_number"]
+                        }
+             },
+ 'ended':
+          {
+           'cn_desc': '返回音频/视频的播放是否已结束',
+           'return':
+                     {
+                      'cn_desc': '',
+                      'values':
+                                ["true","false"]
+                     }
+          },
+ 'error':
+          {
+           'cn_desc': '返回表示音频/视频错误状态的 MediaError 对象',
+           'return':
+                     {
+                      'cn_desc': '',
+                      'values':
+                                ["_MediaError"]
+                     }
+          },
+ 'loop':
+         {
+          'cn_desc': '设置或返回音频/视频是否应在结束时重新播放',
+          'return':
+                    {
+                     'cn_desc': '',
+                     'values':
+                               ["true","false"]
+                    }
+         },
+ 'mediaGroup':
+               {
+                'cn_desc': '设置或返回音频/视频所属的组合（用于连接多个音频/视频元素）',
+                'return':
+                          {
+                           'cn_desc': '',
+                           'values':
+                                     ["_String"]
+                          }
+               },
+ 'muted':
+          {
+           'cn_desc': '设置或返回音频/视频是否静音',
+           'return':
+                     {
+                      'cn_desc': '',
+                      'values':
+                                ["true","false"]
+                     }
+          },
+ 'networkState':
+                 {
+                  'cn_desc': '返回音频/视频的当前网络状态',
+                  'return':
+                            {
+                             'cn_desc': '',
+                             'values':
+                                       [0,1,2,3]
+                            }
+                 },
+ 'paused':
+           {
+            'cn_desc': '设置或返回音频/视频是否暂停',
+            'return':
+                      {
+                       'cn_desc': '',
+                       'values':
+                                 ["true","false"]
+                      }
+           },
+ 'playbackRate':
+                 {
+                  'cn_desc': '设置或返回音频/视频播放的速度',
+                  'return':
+                            {
+                             'cn_desc': '',
+                             'values':
+                                       ["_numnber"]
+                            }
+                 },
+ 'played':
+           {
+            'cn_desc': '返回表示音频/视频已播放部分的 TimeRanges 对象',
+            'return':
+                      {
+                       'cn_desc': '',
+                       'values':
+                                 ["_TimeRanges"]
+                      }
+           },
+ 'preload':
+            {
+             'cn_desc': '设置或返回音频/视频是否应该在页面加载后进行加载',
+             'return':
+                       {
+                        'cn_desc': '',
+                        'values':
+                                  ["auto","metadata","none"]
+                       }
+            },
+ 'readyState':
+               {
+                'cn_desc': '返回音频/视频当前的就绪状态',
+                'return':
+                          {
+                           'cn_desc': '',
+                           'values':
+                                     [0,1,2,3,4]
+                          }
+               },
+ 'seekable':
+             {
+              'cn_desc': '返回表示音频/视频可寻址部分的 TimeRanges 对象',
+              'return':
+                        {
+                         'cn_desc': '',
+                         'values':
+                                   ["_TimeRanges"]
+                        }
+             },
+ 'seeking':
+            {
+             'cn_desc': '返回用户是否正在音频/视频中进行查找',
+             'return':
+                       {
+                        'cn_desc': '',
+                        'values':
+                                  ["true","false"]
+                       }
+            },
+ 'src':
+        {
+         'cn_desc': '设置或返回音频/视频元素的当前来源',
+         'return':
+                   {
+                    'cn_desc': '',
+                    'values':
+                              ["_String"]
+                   }
+        },
+ 'startDate':
+              {
+               'cn_desc': '返回表示当前时间偏移的 Date 对象',
+               'return':
+                         {
+                          'cn_desc': '',
+                          'values':
+                                    ["_Date"]
+                         }
+              },
+ 'textTracks':
+               {
+                'cn_desc': '返回表示可用文本轨道的 TextTrackList 对象',
+                'return':
+                          {
+                           'cn_desc': '表示音频/视频的可用文本轨道',
+                           'values':
+                                     ["_TextTrackList"]
+                          }
+               },
+ 'videoTracks':
+                {
+                 'cn_desc': '返回表示可用视频轨道的 VideoTrackList 对象',
+                 'return':
+                           {
+                            'cn_desc': '表示视频的可用视频轨道',
+                            'values':
+                                      ["_VideoTrackList"]
+                           }
+                },
+ 'volume':
+           {
+            'cn_desc': '设置或返回音频/视频的音量',
+            'return':
+                      {
+                       'cn_desc': '规定音频/视频的当前音量。必须是介于 0.0 与 1.0 之间的数字。',
+                       'values':
+                                 ["_number"]
+                      }
+           }
+}

@@ -1,0 +1,7 @@
+VideoTrack = {
+    "id":null,
+    "kind":null,
+    "label":null,
+    "language":null,
+    "selected":null
+}

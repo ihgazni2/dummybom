@@ -1,0 +1,7 @@
+{
+    "id" : "获得音轨的 id",
+    "kind" : "获得音轨的类型（可以是 "alternative", "description", "main", "translation", "commentary", 或者 "" （空字符串））",
+    "label" : "获得音轨的标签",
+    "language" : "获得音轨的语言",
+    "enabled" : "获得或设置音轨是否是活动的 (true|false)"
+}

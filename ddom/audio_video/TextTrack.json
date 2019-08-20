@@ -1,0 +1,10 @@
+TextTrack = {
+    "kind":null,
+    "label":null,
+    "language":null,
+    "mode":null,
+    "cues":null,
+    "activeCues":null,
+    "addCue":null,
+    "removeCue":null
+}
